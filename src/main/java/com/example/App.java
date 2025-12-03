@@ -42,3 +42,4 @@ public class App {
         return a + b;
     }
 }
+System.out.println("Updated from webhook!");
