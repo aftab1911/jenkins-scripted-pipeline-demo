@@ -18,6 +18,8 @@ public class App {
         App app = new App();
         String message = app.getWelcomeMessage("Jenkins");
         System.out.println(message);
+
+        System.out.println("Updated from webhook!");
     }
     
     /**
@@ -42,4 +44,4 @@ public class App {
         return a + b;
     }
 }
-System.out.println("Updated from webhook!");
+
